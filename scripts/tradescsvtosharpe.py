@@ -279,7 +279,7 @@ def calculate_metrics(sessions_df):
     }
 
 def main():
-    csv_file = "tradescq122.csv"
+    csv_file = "results/tradescq122.csv"
     if len(sys.argv) > 1:
         csv_file = sys.argv[1]
     
